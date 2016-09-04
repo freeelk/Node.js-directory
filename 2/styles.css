@@ -1,0 +1,45 @@
+* {
+    font-family: arial, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dir-name {
+    font-weight: bold;
+    color: #273233;
+}
+
+.dir-name::before {
+    content: "\1F4C2";
+    margin-right: 5px;
+    font-weight: bold
+}
+
+.file {
+    margin-left: 20px;
+    color: #674E2F;
+}
+
+.file-size {
+    font-style: italic;
+}
+
+.error-message {
+    color: red
+}
+
+.level-up {
+    font-weight: bold;
+    color: #273233;
+}
+
+.level-up:before {
+    content: "\21E7";
+    margin-right: 5px;
+}
